@@ -1,1 +1,1 @@
-# epidemiology_workshop
+# Workshop on epidemiology
