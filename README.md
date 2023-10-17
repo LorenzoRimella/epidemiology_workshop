@@ -9,7 +9,7 @@ The workshop will commence with an introduction to compartmental models and thei
 
 The final segment of the workshop will introduce the challenging individual-based models [Rimella et al.,2023a,b], offering the participants an alternative perspective to epidemiological modeling. Foundational concepts of individual-based models will be presented, accompanied by relevant inference techniques. By the end of the workshop, participants will have gained a general theoretical and computational understanding of compartmental models for epidemiological modeling, as well as the associated challenges and techniques for likelihood computation and parameter inference.
 
-## Practical session
+## Practical session (for the masterclass on Parallel computing)
 The practical session focuses on leveraging TensorFlow within the context of epidemiological modeling. We begin with a concise introduction to fundamental TensorFlow commands, elucidating techniques for tensor management, broadcasting, and harnessing the power of the "einsum" notation. In addition to TensorFlow, we explore some commands of TensorFlow Probability, revealing how probabilistic programming facilitates tasks such as sampling and effortless computation of probability mass functions (p.m.f.) and log p.m.f.
 
 Subsequently, we dive into the world of epidemiological modeling simulation, and specifically compartmental modelling, with the classic SIR model serving as our guiding example. Within this segment, we show how to implement a compartmental model efficiently, emphasizing the importance of implementation choices that enable parallel simulation of multiple models.
@@ -18,11 +18,19 @@ The final section of our tutorial is dedicated to inference. We commence by expl
 
 ## References
 C. Andrieu, A. Doucet, and R. Holenstein. Particle markov chain monte carlo methods. Journal of the Royal Statistical Society Series B: Statistical Methodology, 72(3):269–342, 2010.
+
 N. Chopin and O. Papaspiliopoulos. Introduction to Sequential Monte Carlo. Springer International Publishing, 2020.
+
 M. J. Keeling and P. Rohani. Modeling infectious diseases in humans and animals. In Modeling infectious diseases in humans and animals. Princeton university press, 2011.
+
 T. Kypraios, P. Neal, and D. Prangle. A tutorial introduction to bayesian inference for stochastic epidemic models using approximate bayesian computation. Mathematical biosciences, 287:42–53, 2017.
+
 L. Rimella, S. Alderton, M. Sammarro, B. Rowlingson, D. Cocker, N. Feasey, P. Fearnhead, and C. Jewell. Inference on extended-spectrum beta-lactamase Escherichia coli and Klebsiella pneumoniae data through SMC2. Journal of the Royal Statistical Society Series C: Applied Statistics, page qlad055, 07 2023a. ISSN 0035-9254. doi: 10.1093/jrsssc/qlad055. URL https://doi.org/10.1093/jrsssc/qlad055.
+
 L. Rimella, C. Jewell, and P. Fearnhead. Approximating Optimal SMC Proposal Distributions in Individual-Based Epidemic Models. Statistica Sinica, pages SS–2022–0198, 05 2023b. ISSN 1017-0405. doi: 10.5705/ss.202022.0198.
+
 C. P. Robert, G. Casella, and G. Casella. Monte Carlo statistical methods, volume 2. Springer, 1999.
+
 M. Whitehouse, N. Whiteley, and L. Rimella. Consistent and fast inference in compartmental models of epidemics using Poisson Approximate Likelihoods. Journal of the Royal Statistical Society Series B: Statistical Methodology, page qkad065, 07 2023. ISSN 1369-7412. doi: 10.1093/jrsssb/qkad065. URL https://doi.org/10.1093/jrsssb/qkad065.
+
 N. Whiteley and L. Rimella. Inference in stochastic epidemic models via multinomial approximations. In International Conference on Artificial Intelligence and Statistics, pages 1297–1305. PMLR, 2021.
